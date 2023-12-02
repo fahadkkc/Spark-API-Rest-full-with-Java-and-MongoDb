@@ -13,11 +13,11 @@
   </properties>
 
 
- <dependencies>  	
+ <dependencies>
 	<dependency>
         <groupId>org.mongodb</groupId>
         <artifactId>mongo-java-driver</artifactId>
-        <version>3.3.0</version>
+        <version>3.12.12</version>
     </dependency>
     <dependency>
         <groupId>com.sparkjava</groupId>
@@ -27,7 +27,7 @@
   	  <dependency>
         <groupId>org.mongodb</groupId>
         <artifactId>bson</artifactId>
-        <version>2.13.3</version>
+        <version>4.9.0</version>
     </dependency>
     <dependency>
         <groupId>org.mongodb.morphia</groupId>
