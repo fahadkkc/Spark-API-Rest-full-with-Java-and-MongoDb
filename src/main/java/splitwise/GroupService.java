@@ -1,4 +1,4 @@
-package shop;
+package splitwise;
 
 import model.Expense;
 import model.Group;

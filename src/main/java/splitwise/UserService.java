@@ -1,4 +1,4 @@
-package shop;
+package splitwise;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -16,6 +16,9 @@ public class UserService {
 	Datastore datastore = new Morphia().createDatastore(client, "splitwise-collection");
 	
 	public String addUser(User user){
+		if(user.getExpense()==null){
+			user.setExpense(0f);
+		}
 		datastore.save(user);
 		return "User added";
 	}
